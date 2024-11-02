@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from tqdm import tqdm
 
 # GitHub API Configuration
-GITHUB_TOKEN = "YOUR_TOKEN_HERE"
+GITHUB_TOKEN = "ghp_FAKETOKEN" # The token as been masked for security reasons. Insert your own token to use my code.
 HEADERS = {
     "Authorization": f"token {GITHUB_TOKEN}",
     "Accept": "application/vnd.github.v3+json"
